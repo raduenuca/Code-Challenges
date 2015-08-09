@@ -1,8 +1,3 @@
-var isPalindrome = function (str) {
-    str = str.toString();
-    return str.split("").reverse().join("") === str;
-};
-
 // Generates a range of numbers from 1 to n
 var generateRange = function (limit, start) {
     start = start || 0;
@@ -35,4 +30,8 @@ var sieveOfEratosthenes = function (limit) {
     });
 };
 
-console.log(sieveOfEratosthenes(1000).reverse().filter(isPalindrome).shift());
+var sum = function (a, b) {
+    return a + b;
+};
+
+console.log(sieveOfEratosthenes(10000).slice(undefined, 1000).reduce(sum));
