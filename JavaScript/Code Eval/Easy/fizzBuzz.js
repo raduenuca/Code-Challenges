@@ -10,7 +10,7 @@ var generateRange = function(n){
 };
 
 fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function (line) {
-    if (line != "") {
+    if (line !== "") {
         var input = line.split(" ");
         var X = parseInt(input[0]);
         var Y = parseInt(input[1]);
