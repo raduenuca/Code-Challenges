@@ -5,9 +5,8 @@ var parseIntEx = function(str) {
 };
 
 var isSelfDescribing = function(number) {
-    var digits = number.toString().split("").map(parseIntEx);
+    var digits = number.split("").map(parseIntEx);
     var index = 0;
-    
     var result = 1;
 
     for (index; index < digits.length; index = index + 1) {
@@ -32,7 +31,7 @@ var isSelfDescribing = function(number) {
 
 fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function(line) {
     if (line !== "") {
-        var number = parseInt(line.trim());
+        var number = line.trim();
 
         console.log(isSelfDescribing(number));
     }
