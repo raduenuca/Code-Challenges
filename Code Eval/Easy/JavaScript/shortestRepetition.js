@@ -32,7 +32,7 @@ var getDivisors = function(number) {
     return divisiors.sort(asscending);
 };
 
-var asscending = function(a, b) {
+var ascending = function(a, b) {
     return a - b;
 };
 
@@ -67,7 +67,7 @@ fs.readFileSync(process.argv[2]).toString().split('\n').forEach(function(line) {
             .map(function(repetition) {
                 return repetition[0].length;
             })
-            .sort(asscending);
+            .sort(ascending);
 
         console.log(allRepetitions[0]);
     }
