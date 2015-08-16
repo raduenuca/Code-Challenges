@@ -1,0 +1,20 @@
+Alick developed the Autocode University Manchester, of Glennie At in early the 1950s;6 8 11 9 3 5 4 7 1 10 12 2
+and Zuse language 1945 between Konrad early computer An for a developed to Z3 the by designed programming for Plankalkul, 1943 high-level German was be;24 21 5 25 22 20 2 11 1 15 10 14 6 18 16 19 8 4 9 13 23 3 17 12
+Mauchly's one Code, computer developed John for was high-level languages first the ever of electronic proposed in 1949, Short an;2 9 4 20 16 1 17 8 13 14 12 11 15 10 19 5 6 7 3
+compiler The compiled and language programming was for be Manchester high-level considered first Mark code of computer at the University in 1952 developed is and 1 the the first to;5 1 27 20 30 29 6 10 24 19 28 22 2 12 3 18 14 15 25 17 8 9 7 21 4 13 11 16 26
+for processing prototype language 1955, English were implemented customers programming uncomfortable notation, team she and mathematical data Hopper in early that an business and a with her wrote found a specification and;24 6 32 28 16 26 8 30 7 27 9 12 20 17 13 11 5 1 14 15 3 25 4 18 31 10 19 21 2 22 23
+developed was UNIVAC Rand period 1959 the Remington during at the until 1955 from It for I;3 2 6 10 13 17 12 9 11 8 5 16 15 14 1 4
+Atlas contemporary development, but Atlas was thread 1 the of University for Autocode machine A developed of Manchester separate;8 2 7 3 17 10 5 18 13 6 14 12 9 19 1 11 15 16
+to programming Zuse Z3 designed Konrad 1943 the high-level be computer between for and early German language for was An developed Plankalkul, by a 1945;6 4 21 18 8 20 23 16 3 7 11 22 15 24 2 17 5 9 12 1 14 13 19 10
+one proposed 1949, Code, first Mauchly's developed computer for high-level in ever electronic Short languages was John the of an;9 5 7 4 12 2 16 20 17 13 6 15 19 3 14 8 1 11 10
+machine code However, process running than the translated equivalent to the be machine much every slower time the code ran, program into had making it;24 25 1 17 21 20 2 7 23 5 22 6 9 18 11 19 12 16 10 14 3 8 4 15
+the and was in called for The by Brooker "Mark Autocode" second 1954 developed the autocode was 1 1 Mark;17 14 15 12 16 6 1 10 11 18 20 2 13 5 7 3 4 19 9
+University The EDSAC of was by version 2 of the devised 1961 Laboratory Mathematical in Cambridge for Hartley;12 1 5 13 7 9 2 6 11 4 8 18 16 15 17 14 3
+autocode was the Autocode" "Mark was 1 1 Brooker Mark called in by the developed The and for second 1954;3 4 7 20 18 15 19 9 11 8 16 12 10 17 5 1 14 6 2
+convert compiler A language into a to machine the it automatically used programming code language,;10 7 1 12 13 6 8 14 11 4 9 5 2 15
+Grace Hopper devised FLOW-MATIC language called programming US, the in Another early was by;8 9 6 14 4 13 3 12 11 10 1 2 5
+computer in the the The compiler and Manchester for compiled high-level first was 1952 is language at 1 of and developed first the code University considered be Mark to programming;14 8 11 25 1 5 4 19 10 27 28 26 6 9 21 30 15 13 18 20 7 2 16 3 17 22 24 12 23
+Atlas developed Manchester the University separate 1 Atlas Autocode thread A machine of of but development, was for contemporary;17 11 16 13 14 4 18 8 9 5 1 19 6 15 3 7 10 12
+and 2000 it 1998 However, not implemented was until;8 9 2 7 1 4 5 3
+language FLOW-MATIC Grace devised the in Another US, Hopper programming called early by was;4 14 8 6 11 10 1 12 9 3 13 2 7
+and was used language Fortran at The the programming mid became developed IBM purpose widely '50s, first in general high-level the language;12 4 17 2 3 6 1 14 21 10 13 5 7 20 16 11 15 8 19 18 9
