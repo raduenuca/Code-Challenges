@@ -29,10 +29,11 @@
     var lines = curry(splitArray, "\n");
     var unlines = curry(joinArray, "\n");
 
-    var letters = curry(splitArray, "");
+    var sentences = [];
 
-    var letterCasePercentage = function(arr) {
-        return arr.reduce(function(acc, letter) {
+    var computeLetterCasePercentage = function(str){
+        var percentage = str.split("")
+            .reduce(function(acc, letter) {
             if (letter.toLowerCase() === letter) {
                 acc[0] = acc[0] + 1;
 
@@ -43,23 +44,19 @@
 
             return acc;
         }, [0, 0]);
-    };
-
-    var outputPercentage = function(percentage) {
+        
         var lowercase = percentage[0];
         var uppercase = percentage[1];
         var strLength = lowercase + uppercase;
 
-        return "lowercase: " +
+        sentences.push("lowercase: " +
             parseFloat((lowercase / strLength) * 100).toFixed(2) +
             " uppercase: " +
-            parseFloat((uppercase / strLength) * 100).toFixed(2);
-    }
+            parseFloat((uppercase / strLength) * 100).toFixed(2));
+    };
 
-    var sentences = lines(fs.readFileSync(process.argv[2]).toString())
-        .map(letters)
-        .map(letterCasePercentage)
-        .map(outputPercentage);
+    lines(fs.readFileSync(process.argv[2]).toString())
+        .forEach(computeLetterCasePercentage);
 
     console.log(unlines(sentences));
 }());
