@@ -144,7 +144,7 @@
     var sum = function(a, b) {
         return a + b;
     };
-    
+
     var nonEmpty = curry(filter_, Boolean);
 
     var computeMajorElements = function(array) {
