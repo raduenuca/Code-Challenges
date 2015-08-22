@@ -93,10 +93,6 @@
         console.log(value);
     };
 
-    var parseInt_ = function(value) {
-        return +value;
-    };
-
     var lines = curry(splitArray, "\n");
     var unlines = curry(joinArray, "\n");
 
@@ -104,16 +100,31 @@
     var letters = curry(splitArray, "");
     var unletters = curry(joinArray, "");
 
-    var numbersOnly = function(str){
-        return str.replace(/[^0-9]/g, "");
-    };
-
     var removeRepetitions = function(str) {
         
+        var noRepetions =function(acc, curr){
+           if (acc.length === 0){
+               acc.push(curr);
+               return acc;
+           }
+           
+           if(acc[acc.length - 1] !== curr){
+               acc.push(curr);
+           }  
+           
+           return acc;
+        };
+        return compose(unletters, curry(reduce_, noRepetions, []), letters)(str);
     };
 
     var removeRepetitions_ = curry(map_, removeRepetitions);
-    var solution = compose(show, unlines, removeRepetitions_ ,nonEmpty, lines);
+
+    var solution = compose(
+        show, 
+        unlines,
+        removeRepetitions_ , 
+        nonEmpty, 
+        lines);
 
     solution(fs.readFileSync(process.argv[2]).toString());
 }());
