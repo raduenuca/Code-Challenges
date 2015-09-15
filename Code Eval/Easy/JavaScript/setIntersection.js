@@ -7,7 +7,7 @@ var parseIntEx = function (str) {
 var isInArray = function (arr) {
     return function (val) {
         return arr.indexOf(val) !== -1;
-    }
+    };
 };
 
 var intersect = function (a, b) {
